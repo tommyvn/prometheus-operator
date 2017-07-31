@@ -4,6 +4,7 @@ metadata:
   name: prometheus
   labels:
     k8s-app: prometheus
+  namespace: monitoring
 spec:
   selector:
     matchLabels:

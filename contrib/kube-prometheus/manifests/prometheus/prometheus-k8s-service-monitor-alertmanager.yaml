@@ -4,6 +4,7 @@ metadata:
   name: alertmanager
   labels:
     k8s-app: alertmanager
+  namespace: monitoring
 spec:
   selector:
     matchLabels:

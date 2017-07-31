@@ -5,6 +5,7 @@ metadata:
   labels:
     role: prometheus-rulefiles
     prometheus: k8s
+  namespace: monitoring
 data:
   alertmanager.rules: |+
     ALERT AlertmanagerConfigInconsistent

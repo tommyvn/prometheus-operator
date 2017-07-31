@@ -4,6 +4,7 @@ metadata:
   name: kube-scheduler
   labels:
     k8s-app: kube-scheduler
+  namespace: monitoring
 spec:
   jobLabel: k8s-app
   endpoints:

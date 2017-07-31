@@ -4,6 +4,7 @@ metadata:
   name: kube-controller-manager
   labels:
     k8s-app: kube-controller-manager
+  namespace: monitoring
 spec:
   jobLabel: k8s-app
   endpoints:

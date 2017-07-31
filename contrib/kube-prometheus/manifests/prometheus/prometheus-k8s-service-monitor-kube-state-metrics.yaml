@@ -4,6 +4,7 @@ metadata:
   name: kube-state-metrics
   labels:
     k8s-app: kube-state-metrics
+  namespace: monitoring
 spec:
   jobLabel: k8s-app
   selector:

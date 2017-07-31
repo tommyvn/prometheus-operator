@@ -4,6 +4,7 @@ metadata:
   name: "main"
   labels:
     alertmanager: "main"
+  namespace: monitoring
 spec:
   replicas: 3
   version: v0.7.1

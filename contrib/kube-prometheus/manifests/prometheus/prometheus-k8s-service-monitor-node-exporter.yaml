@@ -4,6 +4,7 @@ metadata:
   name: node-exporter
   labels:
     k8s-app: node-exporter
+  namespace: monitoring
 spec:
   jobLabel: k8s-app
   selector:

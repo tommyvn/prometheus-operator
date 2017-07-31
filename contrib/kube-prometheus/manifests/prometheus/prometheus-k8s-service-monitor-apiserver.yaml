@@ -4,6 +4,7 @@ metadata:
   name: kube-apiserver
   labels:
     k8s-app: apiserver
+  namespace: monitoring
 spec:
   jobLabel: component
   selector:
